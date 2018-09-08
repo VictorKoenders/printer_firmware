@@ -1,0 +1,17 @@
+[package]
+authors = ["trangar <Victor 'Trangar' Koenders>"]
+name = "printer_firmware"
+version = "0.1.0"
+
+[dependencies]
+cortex-m = "0.5.7"
+cortex-m-rt = "0.6.1"
+cortex-m-semihosting = "0.3.1"
+embedded-hal = "0.2.1"
+nb = "0.1.1"
+panic-semihosting = "0.4.0"
+stm32f103xx = "0.10.0"
+
+[dependencies.stm32f103xx-hal]
+features = ["rt"]
+git = "https://github.com/japaric/stm32f103xx-hal.git"
